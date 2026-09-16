@@ -10,17 +10,17 @@ public class Person
     // Person setter methods
     public void setName(String name)
     {   // START OF setName method
-        name = name;
+        this.name = name;
     }   // END OF setName method
 
     public void setAge(int age)
     {   // START of setAge method
-        age = age;
+        this.age = age;
     }   // END OF setAge method
 
     public void setEmail(String email)
     {   // START OF setEmail method
-        email = email;
+        this.email = email;
     }   // END OF setEmail method
     
 
@@ -42,7 +42,7 @@ public class Person
 
 
     // Method to display the details of a person
-    public void displayInfo(String name, int age, String email)
+    public void displayInfo()
     {   // START OF displayInfo method
         System.out.printf("Name: %s\n" +
                           "Age: %d\n" +

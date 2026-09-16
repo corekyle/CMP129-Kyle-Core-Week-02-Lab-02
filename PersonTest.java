@@ -53,6 +53,7 @@ public class PersonTest
         person2.setEmail(email);
 
         // Display the info about the Person objects
+        System.out.println("\n" +);
 
 
     }   // START OF main method
